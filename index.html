@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My First Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Site</h1>
+    <p class="tagline">This is my very first website — made on a Mac!</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About</h2>
+      <p>I made this site to test ands troubleshoot my abilities of making sites. Stay tune for my grand site i will make in the future - CODE: BLUE</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:you@example.com">xboxdaviddevdariani@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> David D.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
